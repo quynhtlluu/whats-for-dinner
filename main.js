@@ -51,7 +51,6 @@ var desserts = [
 var sideDishesButton = document.querySelector("#side-dish");
 var mainDishesButton = document.querySelector("#main-dish");
 var dessertDishesButton = document.querySelector("#dessert-dish");
-var mealsButton = document.querySelector("#entire-meal");
 var letsCookButton = document.querySelector("#lets-cook-button");
 var addRecipesButton = document.querySelector("#add-recipe-button");
 
