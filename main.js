@@ -61,6 +61,7 @@ var recipeText = document.querySelector(".recipe-text");
 
 // event listeners
 letsCookButton.addEventListener("click", getRecipe)
+addRecipesButton.addEventListener("click", makeRecipeFormDisplay)
 
 // functions
 function getRandomizedRecipe(array) {
@@ -84,4 +85,8 @@ function getRecipe() {
       newRecipe = getRandomizedRecipe(desserts);
     }
     recipeText.innerText = newRecipe;
+}
+
+function makeRecipeFormDisplay() {
+    
 }
